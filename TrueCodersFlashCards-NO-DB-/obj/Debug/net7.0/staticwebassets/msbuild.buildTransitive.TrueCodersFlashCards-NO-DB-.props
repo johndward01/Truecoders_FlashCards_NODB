@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TrueCodersFlashCards-NO-DB-.props" />
+</Project>

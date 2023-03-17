@@ -1,0 +1,51 @@
+.Title[b-cq25lfte9t] {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.flashcard-container[b-cq25lfte9t] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flashcard[b-cq25lfte9t] {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .flashcard:hover .front[b-cq25lfte9t] {
+        transform: rotateY(190deg);
+    }
+
+    .flashcard:hover .back[b-cq25lfte9t] {
+        transform: rotateY(0);
+    }
+
+.front[b-cq25lfte9t], .back[b-cq25lfte9t] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+    align-self: center;
+}
+
+.front[b-cq25lfte9t] {
+    background-color: gray;
+    z-index: 2;
+}
+
+.back[b-cq25lfte9t] {
+    background-color: #f5f5f5;
+    transform: rotateY(180deg);
+    z-index: 1;
+}

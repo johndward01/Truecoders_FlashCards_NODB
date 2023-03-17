@@ -1,0 +1,322 @@
+/* _content/TrueCodersFlashCards-NO-DB-/Views/CSSFlashCards/Index.cshtml.rz.scp.css */
+.Title[b-5t27orykgv] {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.flashcard-container[b-5t27orykgv] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flashcard[b-5t27orykgv] {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .flashcard:hover .front[b-5t27orykgv] {
+        transform: rotateY(190deg);
+    }
+
+    .flashcard:hover .back[b-5t27orykgv] {
+        transform: rotateY(0);
+    }
+
+.front[b-5t27orykgv], .back[b-5t27orykgv] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+    align-self: center;
+}
+
+.front[b-5t27orykgv] {
+    background-color: gray;
+    z-index: 2;
+}
+
+.back[b-5t27orykgv] {
+    background-color: #f5f5f5;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+/* _content/TrueCodersFlashCards-NO-DB-/Views/C_FlashCards/Index.cshtml.rz.scp.css */
+
+.Title[b-djo3nypnqp] {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.flashcard-container[b-djo3nypnqp] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flashcard[b-djo3nypnqp] {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+   .flashcard:hover .front[b-djo3nypnqp] 
+   {
+        transform: rotateY(180deg);
+    }
+
+   .flashcard:hover .back[b-djo3nypnqp] {
+        transform: rotateY(0);
+    }
+.front[b-djo3nypnqp], .back[b-djo3nypnqp] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+    align-self: center;
+}
+
+.front[b-djo3nypnqp] 
+{
+    background-color: gray;
+    z-index: 2;
+}
+
+.back[b-djo3nypnqp] 
+{
+    background-color: #f5f5f5;
+    transform: rotateY(0deg);
+    z-index: 1;
+}
+
+
+/* _content/TrueCodersFlashCards-NO-DB-/Views/HTMLFlashCards/Index.cshtml.rz.scp.css */
+.Title[b-l2mscqd04q] {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.flashcard-container[b-l2mscqd04q] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flashcard[b-l2mscqd04q] {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .flashcard:hover .front[b-l2mscqd04q] {
+        transform: rotateY(190deg);
+    }
+
+    .flashcard:hover .back[b-l2mscqd04q] {
+        transform: rotateY(0);
+    }
+
+.front[b-l2mscqd04q], .back[b-l2mscqd04q] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+    align-self: center;
+}
+
+.front[b-l2mscqd04q] {
+    background-color: gray;
+    z-index: 2;
+}
+
+.back[b-l2mscqd04q] {
+    background-color: #f5f5f5;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+/* _content/TrueCodersFlashCards-NO-DB-/Views/JavaScriptFlashCards/Index.cshtml.rz.scp.css */
+.Title[b-8lw1tghwit]{
+    text-align:center;
+}
+
+.Title[b-8lw1tghwit] {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.flashcard-container[b-8lw1tghwit] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flashcard[b-8lw1tghwit] {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .flashcard:hover .front[b-8lw1tghwit] 
+    {
+        transform: rotateY(180deg);
+ 
+    }
+
+    .flashcard:hover .back[b-8lw1tghwit] {
+        transform: rotateY(0);
+    }
+
+.front[b-8lw1tghwit], .back[b-8lw1tghwit] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+    align-self: center;
+}
+
+.front[b-8lw1tghwit] {
+    background-color: gray;
+    z-index: 2;
+}
+
+.back[b-8lw1tghwit] {
+    background-color: #f5f5f5;
+    transform: rotateY(0deg);
+    z-index: 1;
+}
+
+
+/* _content/TrueCodersFlashCards-NO-DB-/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-jhvwonr8d2] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-jhvwonr8d2] {
+  color: #0077cc;
+}
+
+.btn-primary[b-jhvwonr8d2] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-jhvwonr8d2], .nav-pills .show > .nav-link[b-jhvwonr8d2] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-jhvwonr8d2] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-jhvwonr8d2] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-jhvwonr8d2] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-jhvwonr8d2] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-jhvwonr8d2] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/TrueCodersFlashCards-NO-DB-/Views/SQLFlashCards/Index.cshtml.rz.scp.css */
+.Title[b-cq25lfte9t] {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.flashcard-container[b-cq25lfte9t] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flashcard[b-cq25lfte9t] {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .flashcard:hover .front[b-cq25lfte9t] {
+        transform: rotateY(190deg);
+    }
+
+    .flashcard:hover .back[b-cq25lfte9t] {
+        transform: rotateY(0);
+    }
+
+.front[b-cq25lfte9t], .back[b-cq25lfte9t] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+    align-self: center;
+}
+
+.front[b-cq25lfte9t] {
+    background-color: gray;
+    z-index: 2;
+}
+
+.back[b-cq25lfte9t] {
+    background-color: #f5f5f5;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
